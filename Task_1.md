@@ -6,5 +6,7 @@ Cloning the repository on our device locally.
 
 ```bash
 git clone https://github.com/MRM-AIA-TP-2026/MRM_Dhruv.git
-```
 
+cd MRM_Dhruv
+
+```
