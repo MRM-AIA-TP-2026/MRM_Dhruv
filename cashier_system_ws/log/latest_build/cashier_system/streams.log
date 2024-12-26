@@ -1,0 +1,285 @@
+[0.010s] Invoking command in '/home/ubuntu/cashier_system_ws/build/cashier_system': /usr/bin/cmake /home/ubuntu/cashier_system_ws/src/cashier_system -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cashier_system_ws/install/cashier_system
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.184s] -- Detecting CXX compiler ABI info - done
+[0.190s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.190s] -- Detecting CXX compile features - done
+[0.192s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.270s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.315s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.342s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.345s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.350s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.440s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.457s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.482s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.486s] -- Looking for pthread.h
+[0.525s] -- Looking for pthread.h - found
+[0.525s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.565s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.566s] -- Found Threads: TRUE  
+[0.600s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.605s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.744s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.013s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.014s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.029s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.029s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.029s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.029s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.040s] -- Found PythonExtra: .so  
+[1.064s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.065s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.065s]   rosidl_target_interfaces()
+[1.065s] Call Stack (most recent call first):
+[1.065s]   CMakeLists.txt:64 (rosidl_target_interfaces)
+[1.065s] 
+[1.065s] [0m
+[1.065s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.065s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.065s]   rosidl_target_interfaces()
+[1.065s] Call Stack (most recent call first):
+[1.065s]   CMakeLists.txt:66 (rosidl_target_interfaces)
+[1.065s] 
+[1.065s] [0m
+[1.065s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.065s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.065s]   rosidl_target_interfaces()
+[1.065s] Call Stack (most recent call first):
+[1.065s]   CMakeLists.txt:68 (rosidl_target_interfaces)
+[1.065s] 
+[1.065s] [0m
+[1.068s] -- Configuring done
+[1.092s] -- Generating done
+[1.094s] [33mCMake Warning:
+[1.094s]   Manually-specified variables were not used by the project:
+[1.094s] 
+[1.094s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.094s]     CATKIN_SYMLINK_INSTALL
+[1.094s] 
+[1.094s] [0m
+[1.102s] -- Build files have been written to: /home/ubuntu/cashier_system_ws/build/cashier_system
+[1.109s] Invoked command in '/home/ubuntu/cashier_system_ws/build/cashier_system' returned '0': /usr/bin/cmake /home/ubuntu/cashier_system_ws/src/cashier_system -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cashier_system_ws/install/cashier_system
+[1.110s] Invoking command in '/home/ubuntu/cashier_system_ws/build/cashier_system': /usr/bin/cmake --build /home/ubuntu/cashier_system_ws/build/cashier_system -- -j4 -l4
+[1.129s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.134s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.140s] [  5%] Built target ament_cmake_python_copy_cashier_system
+[1.273s] running egg_info
+[1.273s] creating cashier_system.egg-info
+[1.273s] writing cashier_system.egg-info/PKG-INFO
+[1.274s] writing dependency_links to cashier_system.egg-info/dependency_links.txt
+[1.274s] writing top-level names to cashier_system.egg-info/top_level.txt
+[1.274s] writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[1.275s] reading manifest file 'cashier_system.egg-info/SOURCES.txt'
+[1.276s] writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[1.285s] [  5%] Built target cashier_system__cpp
+[1.290s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.291s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.291s] [ 13%] [32mBuilding C object CMakeFiles/cashier_system__rosidl_generator_c.dir/rosidl_generator_c/cashier_system/msg/detail/bill__functions.c.o[0m
+[1.292s] [ 13%] Built target ament_cmake_python_build_cashier_system_egg
+[1.298s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.321s] [ 18%] [32m[1mLinking C shared library libcashier_system__rosidl_generator_c.so[0m
+[1.354s] [ 18%] Built target cashier_system__rosidl_generator_c
+[1.359s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.418s] [ 24%] [32mBuilding CXX object CMakeFiles/cashier_system__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cashier_system/msg/bill__type_support.cpp.o[0m
+[1.433s] [ 27%] [32mBuilding CXX object CMakeFiles/cashier_system__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cashier_system/msg/detail/dds_fastrtps/bill__type_support.cpp.o[0m
+[1.438s] [ 29%] [32mBuilding CXX object CMakeFiles/cashier_system__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cashier_system/msg/detail/bill__type_support.cpp.o[0m
+[1.503s] [ 32%] [32mBuilding CXX object CMakeFiles/cashier_system__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cashier_system/msg/detail/bill__type_support_c.cpp.o[0m
+[1.594s] [ 35%] [32m[1mLinking CXX shared library libcashier_system__rosidl_typesupport_cpp.so[0m
+[1.618s] [ 35%] Built target cashier_system__rosidl_typesupport_cpp
+[1.624s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.678s] [ 40%] [32m[1mLinking CXX shared library libcashier_system__rosidl_typesupport_introspection_cpp.so[0m
+[1.701s] [ 43%] [32m[1mLinking CXX shared library libcashier_system__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.714s] [ 43%] Built target cashier_system__rosidl_typesupport_introspection_cpp
+[1.718s] [ 45%] [32m[1mLinking CXX shared library libcashier_system__rosidl_typesupport_fastrtps_c.so[0m
+[1.722s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.750s] [ 48%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp
+[1.773s] [ 51%] [32mBuilding C object CMakeFiles/cashier_system__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cashier_system/msg/detail/bill__type_support.c.o[0m
+[1.783s] [ 51%] Built target cashier_system__rosidl_typesupport_fastrtps_c
+[1.792s] [ 54%] [32m[1mLinking C shared library libcashier_system__rosidl_typesupport_introspection_c.so[0m
+[1.806s] [ 54%] Built target cashier_system__rosidl_typesupport_introspection_c
+[1.848s] [ 56%] [32mBuilding CXX object CMakeFiles/cashier_system__rosidl_typesupport_c.dir/rosidl_typesupport_c/cashier_system/msg/bill__type_support.cpp.o[0m
+[1.863s] [ 59%] [32m[1mLinking CXX shared library libcashier_system__rosidl_typesupport_c.so[0m
+[1.883s] [ 59%] Built target cashier_system__rosidl_typesupport_c
+[1.892s] [ 59%] Built target cashier_system
+[1.901s] [ 67%] [32mBuilding CXX object CMakeFiles/last_bill_printer.dir/src/last_bill_printer.cpp.o[0m
+[1.901s] [ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.901s] [ 70%] [32mBuilding CXX object CMakeFiles/inventory_manager.dir/src/inventory_manager.cpp.o[0m
+[1.901s] [ 67%] [32mBuilding CXX object CMakeFiles/bill_publisher.dir/src/bill_publisher.cpp.o[0m
+[2.282s] [ 70%] Built target cashier_system__py
+[2.343s] [ 72%] [32mBuilding C object CMakeFiles/cashier_system__rosidl_generator_py.dir/rosidl_generator_py/cashier_system/msg/_bill_s.c.o[0m
+[2.413s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/cashier_system/libcashier_system__rosidl_generator_py.so[0m
+[2.442s] [ 75%] Built target cashier_system__rosidl_generator_py
+[2.453s] [ 78%] [32mBuilding C object CMakeFiles/cashier_system__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cashier_system/_cashier_system_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.520s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/cashier_system/cashier_system_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.549s] [ 81%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[2.560s] [ 83%] [32mBuilding C object CMakeFiles/cashier_system__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cashier_system/_cashier_system_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.633s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/cashier_system/cashier_system_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.656s] [ 86%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext
+[2.667s] [ 89%] [32mBuilding C object CMakeFiles/cashier_system__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cashier_system/_cashier_system_s.ep.rosidl_typesupport_c.c.o[0m
+[2.732s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/cashier_system/cashier_system_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.761s] [ 91%] Built target cashier_system__rosidl_typesupport_c__pyext
+[4.801s] [ 94%] [32m[1mLinking CXX executable bill_publisher[0m
+[4.929s] [ 94%] Built target bill_publisher
+[6.877s] [ 97%] [32m[1mLinking CXX executable last_bill_printer[0m
+[7.128s] [ 97%] Built target last_bill_printer
+[7.196s] [100%] [32m[1mLinking CXX executable inventory_manager[0m
+[7.450s] [100%] Built target inventory_manager
+[7.456s] Invoked command in '/home/ubuntu/cashier_system_ws/build/cashier_system' returned '0': /usr/bin/cmake --build /home/ubuntu/cashier_system_ws/build/cashier_system -- -j4 -l4
+[7.462s] Invoking command in '/home/ubuntu/cashier_system_ws/build/cashier_system': /usr/bin/cmake --install /home/ubuntu/cashier_system_ws/build/cashier_system
+[7.465s] -- Install configuration: ""
+[7.465s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/ament_index/resource_index/rosidl_interfaces/cashier_system
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__struct.h
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__type_support.h
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__functions.h
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__functions.c
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/bill.h
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_generator_c__visibility_control.h
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/environment/library_path.sh
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/environment/library_path.dsv
+[7.466s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_generator_c.so
+[7.466s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_generator_c.so" to ""
+[7.467s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system
+[7.467s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg
+[7.467s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[7.467s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__rosidl_typesupport_fastrtps_c.h
+[7.467s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.467s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_fastrtps_c.so
+[7.467s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_fastrtps_c.so" to ""
+[7.467s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system
+[7.467s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg
+[7.467s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[7.467s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__struct.hpp
+[7.467s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__traits.hpp
+[7.468s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__builder.hpp
+[7.468s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__type_support.hpp
+[7.468s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.468s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/bill.hpp
+[7.468s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system
+[7.468s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg
+[7.468s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[7.468s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/dds_fastrtps
+[7.468s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__rosidl_typesupport_fastrtps_cpp.hpp
+[7.468s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.468s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_fastrtps_cpp.so
+[7.468s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.469s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system
+[7.469s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg
+[7.469s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[7.469s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__rosidl_typesupport_introspection_c.h
+[7.469s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__type_support.c
+[7.469s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.469s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_introspection_c.so
+[7.469s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_introspection_c.so" to ""
+[7.469s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_c.so
+[7.469s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_c.so" to ""
+[7.469s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system
+[7.469s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg
+[7.469s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[7.469s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__type_support.cpp
+[7.469s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__rosidl_typesupport_introspection_cpp.hpp
+[7.469s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_introspection_cpp.so
+[7.470s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_introspection_cpp.so" to ""
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_cpp.so
+[7.470s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_typesupport_cpp.so" to ""
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/environment/pythonpath.sh
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/environment/pythonpath.dsv
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.1.0-py3.10.egg-info
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.1.0-py3.10.egg-info/PKG-INFO
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.1.0-py3.10.egg-info/SOURCES.txt
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.1.0-py3.10.egg-info/dependency_links.txt
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.1.0-py3.10.egg-info/top_level.txt
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system
+[7.470s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/_cashier_system_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg/__init__.py
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg/_bill.py
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg/_bill_s.c
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/libcashier_system__rosidl_generator_py.so
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/__init__.py
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/_cashier_system_s.ep.rosidl_typesupport_c.c
+[7.471s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/_cashier_system_s.ep.rosidl_typesupport_introspection_c.c
+[7.489s] Listing '/home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system'...
+[7.489s] Compiling '/home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/__init__.py'...
+[7.489s] Listing '/home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg'...
+[7.489s] Compiling '/home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg/__init__.py'...
+[7.489s] Compiling '/home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg/_bill.py'...
+[7.492s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.492s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.492s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.492s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.492s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.492s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.492s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_generator_py.so
+[7.493s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/libcashier_system__rosidl_generator_py.so" to ""
+[7.493s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/msg/Bill.idl
+[7.493s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/msg/Bill.msg
+[7.493s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/cashier_system/bill_publisher
+[7.494s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/cashier_system/bill_publisher" to ""
+[7.494s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/cashier_system/inventory_manager
+[7.496s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/cashier_system/inventory_manager" to ""
+[7.496s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/lib/cashier_system/last_bill_printer
+[7.498s] -- Set runtime path of "/home/ubuntu/cashier_system_ws/install/cashier_system/lib/cashier_system/last_bill_printer" to ""
+[7.498s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/launch
+[7.498s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/launch/example.launch.py
+[7.498s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/msg
+[7.498s] -- Up-to-date: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/msg/Bill.msg
+[7.498s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/ament_index/resource_index/package_run_dependencies/cashier_system
+[7.498s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/ament_index/resource_index/parent_prefix_path/cashier_system
+[7.498s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/environment/ament_prefix_path.sh
+[7.498s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/environment/ament_prefix_path.dsv
+[7.498s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/environment/path.sh
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/environment/path.dsv
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/local_setup.bash
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/local_setup.sh
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/local_setup.zsh
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/local_setup.dsv
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/package.dsv
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/ament_index/resource_index/packages/cashier_system
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_cExport.cmake
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_cExport-noconfig.cmake
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_typesupport_fastrtps_cExport.cmake
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.499s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_cppExport.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_introspection_cExport.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_cExport.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_cExport-noconfig.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_introspection_cppExport.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_cppExport.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_cppExport-noconfig.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_pyExport.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_pyExport-noconfig.cmake
+[7.500s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/rosidl_cmake-extras.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/ament_cmake_export_libraries-extras.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/ament_cmake_export_targets-extras.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_systemConfig.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/cmake/cashier_systemConfig-version.cmake
+[7.501s] -- Installing: /home/ubuntu/cashier_system_ws/install/cashier_system/share/cashier_system/package.xml
+[7.502s] Invoked command in '/home/ubuntu/cashier_system_ws/build/cashier_system' returned '0': /usr/bin/cmake --install /home/ubuntu/cashier_system_ws/build/cashier_system

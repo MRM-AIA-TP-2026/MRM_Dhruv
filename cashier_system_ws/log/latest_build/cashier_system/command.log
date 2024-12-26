@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/cashier_system_ws/build/cashier_system': /usr/bin/cmake /home/ubuntu/cashier_system_ws/src/cashier_system -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cashier_system_ws/install/cashier_system
+Invoked command in '/home/ubuntu/cashier_system_ws/build/cashier_system' returned '0': /usr/bin/cmake /home/ubuntu/cashier_system_ws/src/cashier_system -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cashier_system_ws/install/cashier_system
+Invoking command in '/home/ubuntu/cashier_system_ws/build/cashier_system': /usr/bin/cmake --build /home/ubuntu/cashier_system_ws/build/cashier_system -- -j4 -l4
+Invoked command in '/home/ubuntu/cashier_system_ws/build/cashier_system' returned '0': /usr/bin/cmake --build /home/ubuntu/cashier_system_ws/build/cashier_system -- -j4 -l4
+Invoking command in '/home/ubuntu/cashier_system_ws/build/cashier_system': /usr/bin/cmake --install /home/ubuntu/cashier_system_ws/build/cashier_system
+Invoked command in '/home/ubuntu/cashier_system_ws/build/cashier_system' returned '0': /usr/bin/cmake --install /home/ubuntu/cashier_system_ws/build/cashier_system

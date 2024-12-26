@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9efd19e76b39f23a6fd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "cashier_system__py",
+					"jsonFile" : "directory-cashier_system__py-ffd0e83a846c6e8f44a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ubuntu/cashier_system_ws/build/cashier_system/cashier_system__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cashier_system",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cashier_system_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cashier_system_egg-aadfb27f3b3779f52341.json",
+					"name" : "ament_cmake_python_build_cashier_system_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cashier_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cashier_system-100e7df56f573d04a31a.json",
+					"name" : "ament_cmake_python_copy_cashier_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bill_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bill_publisher-a425e443fcde1ffc6116.json",
+					"name" : "bill_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system-6561ebe0cbd1962d4243.json",
+					"name" : "cashier_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__cpp-57dbf8ab1eb1c5bcd669.json",
+					"name" : "cashier_system__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cashier_system__py::@56f470f4f9ba1fbdd165",
+					"jsonFile" : "target-cashier_system__py-dea9594ef23ac30fef6f.json",
+					"name" : "cashier_system__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_generator_c-0319b85801e46a41386c.json",
+					"name" : "cashier_system__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_generator_py-5e13963b48ba28321d86.json",
+					"name" : "cashier_system__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_c-aa7aedfbb7d1353fec49.json",
+					"name" : "cashier_system__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_c__pyext-d9a3491c15949d83150e.json",
+					"name" : "cashier_system__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_cpp-f7029077a12544be94e6.json",
+					"name" : "cashier_system__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_fastrtps_c-49f8fc213766e14876a0.json",
+					"name" : "cashier_system__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_fastrtps_c__pyext-9550367ed9ce6d2dc471.json",
+					"name" : "cashier_system__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_fastrtps_cpp-09208856582ae0456d34.json",
+					"name" : "cashier_system__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_introspection_c-216474092aa279d7b63b.json",
+					"name" : "cashier_system__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_introspection_c__pyext-245e3d892edd1ac9d4ad.json",
+					"name" : "cashier_system__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system__rosidl_typesupport_introspection_cpp-60ab9552bb6c4672cb98.json",
+					"name" : "cashier_system__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cashier_system_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cashier_system_uninstall-9f064b8139dc43e6300c.json",
+					"name" : "cashier_system_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inventory_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inventory_manager-944b086237003129a7ed.json",
+					"name" : "inventory_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "last_bill_printer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-last_bill_printer-ba59aaffc97ee2a753a6.json",
+					"name" : "last_bill_printer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-089da15b4141a6672fac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/cashier_system_ws/build/cashier_system",
+		"source" : "/home/ubuntu/cashier_system_ws/src/cashier_system"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
