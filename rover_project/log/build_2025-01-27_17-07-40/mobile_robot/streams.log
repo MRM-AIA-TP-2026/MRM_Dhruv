@@ -1,0 +1,39 @@
+[0.009s] Invoking command in '/home/dhruv/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dhruv/rover_project/build/mobile_robot -- -j16 -l16
+[0.065s] [ 66%] [32mBuilding CXX object CMakeFiles/rover_control_node.dir/src/rover_control_node.cpp.o[0m
+[0.065s] [ 66%] [32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o[0m
+[0.065s] [ 66%] Built target coordinate_input_node
+[6.221s] [ 83%] [32m[1mLinking CXX executable gps_subscriber[0m
+[6.466s] [ 83%] Built target gps_subscriber
+[6.511s] [100%] [32m[1mLinking CXX executable rover_control_node[0m
+[6.742s] [100%] Built target rover_control_node
+[6.752s] Invoked command in '/home/dhruv/rover_project/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dhruv/rover_project/build/mobile_robot -- -j16 -l16
+[6.763s] Invoking command in '/home/dhruv/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dhruv/rover_project/build/mobile_robot
+[6.768s] -- Install configuration: ""
+[6.768s] -- Execute custom install script
+[6.768s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/lib/mobile_robot/coordinate_input_node
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/lib/mobile_robot/gps_subscriber
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/lib/mobile_robot/rover_control_node
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/src/mobile_robot/launch/launch/coordinate_input_launch.py
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/src/mobile_robot/launch/launch/gazebo_launch.py
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/src/mobile_robot/model/model/rover.gazebo
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/src/mobile_robot/model/model/rover.xacro
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/src/mobile_robot/model/model/world.world
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/src/mobile_robot/model/rover.gazebo
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/src/mobile_robot/model/rover.xacro
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/src/mobile_robot/model/world.world
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[6.769s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[6.770s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[6.770s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[6.770s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/environment/path.sh
+[6.770s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[6.770s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/local_setup.bash
+[6.770s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/local_setup.sh
+[6.770s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[6.770s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[6.770s] -- Symlinking: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/package.dsv
+[6.776s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[6.776s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[6.776s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[6.776s] -- Up-to-date symlink: /home/dhruv/rover_project/install/mobile_robot/share/mobile_robot/package.xml
+[6.778s] Invoked command in '/home/dhruv/rover_project/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dhruv/rover_project/build/mobile_robot

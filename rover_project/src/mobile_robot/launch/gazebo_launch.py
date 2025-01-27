@@ -15,7 +15,8 @@ def generate_launch_description():
     worldFileRelativePath = 'model/world.world'
 
     # Construct file paths
-    pathModelFile = os.path.join(get_package_share_directory(namePackage), modelFileRelativePath)
+    pathModelFile = os.path.join(get_package_share_directory('mobile_robot'), 'model', 'rover.xacro')
+
     pathWorldFile = os.path.join(get_package_share_directory(namePackage), worldFileRelativePath)
 
     # Process the Xacro file to generate robot description
@@ -27,7 +28,7 @@ def generate_launch_description():
     )
     gazeboLaunch = IncludeLaunchDescription(
         gazebo_rosPackageLaunch,
-        launch_arguments={'world': pathWorldFile}.items()
+        launch_arguments=[('world', pathWorldFile)]  # Fixed the syntax here
     )
 
     # Nodes for spawning the model and publishing the robot state

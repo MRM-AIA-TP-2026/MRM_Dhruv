@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dhruv/rover_project/build/mobile_robot/coordinate_input_node" "/home/dhruv/rover_project/build/mobile_robot/gps_subscriber" "/home/dhruv/rover_project/build/mobile_robot/rover_control_node" "TARGETS" "coordinate_input_node" "gps_subscriber" "rover_control_node" "DESTINATION" "lib/mobile_robot")

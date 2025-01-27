@@ -43,10 +43,15 @@ install(TARGETS
 )
 
 # Install directories for launch and model files
-install(DIRECTORY launch model
-        DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY launch model
-        DESTINATION install/${PROJECT_NAME})
+install(DIRECTORY launch
+        DESTINATION src/${PROJECT_NAME}/launch)
+
+install(DIRECTORY model
+        DESTINATION src/${PROJECT_NAME}/model)
+
+install(DIRECTORY model/
+        DESTINATION src/${PROJECT_NAME}/model)
+      
 
 # Run linter if testing is enabled
 if(BUILD_TESTING)
