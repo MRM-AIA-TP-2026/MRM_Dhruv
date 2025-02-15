@@ -1,91 +1,119 @@
-Panels:
-  []
+Panels: []
 Visualization Manager:
   Class: ""
   Displays:
     - Class: rviz/GlobalOptions
       Fixed Frame: base_link
       Name: Global Options
+      Background Color: 48; 48; 48
+      Default Light: true
+      Frame Rate: 30
+
     - Class: rviz/RobotModel
+      Description Topic: /robot_description
       Enabled: true
       Name: Robot Model
-    - Alpha: 1.0
-      Class: rviz/LaserScan
-      Color: 255; 25; 25
-      Enabled: true
-      Name: LaserScan
-      Size: 0.05
-      Topic: /scan
-    - Class: rviz/TF
-      Enabled: true
-      Name: TF
-    - Alpha: 1.0
-      Class: rviz/Odometry
-      Color: 255; 255; 0
-      Enabled: true
-      Keep: 100
-      Name: Odometry
-      Topic: /odom
-    - Alpha: 1.0
-      Class: rviz/Path
-      Color: 0; 255; 0
+      Visual Enabled: true
+      Collision Enabled: false
+      Update Interval: 0.3
+
+    - Class: rviz/Grid
+      Cell Size: 1.0
+      Color: 160; 160; 160
       Enabled: true
       Line Style: Lines
-      Line Width: 0.1
-      Name: Path
+      Name: Navigation Grid
+      Plane Cell Count: 10
+      Reference Frame: base_link
+
+    - Class: rviz/LaserScan
+      Alpha: 0.7
+      Color: 255; 0; 0
+      Enabled: true
+      Name: LiDAR Scan
+      Size (m): 0.08
+      Topic: /scan
+      Use rainbow: true
+      Position Transformer: XYZ
+
+    - Class: rviz/TF
+      Enabled: true
+      Filter: [base_link, lidar_link, camera_link, imu_link]
+      Name: Coordinate Frames
+      Show Arrows: true
+      Show Names: true
+      Update Interval: 0.5
+
+    - Class: rviz/Odometry
+      Color: 255; 255; 0
+      Covariance: true
+      Enabled: true
+      Keep: 100
+      Name: Wheel Odometry
+      Topic: /odom
+      Position Tolerance (m): 0.1
+      Angle Tolerance (rad): 0.087
+
+    - Class: rviz/Path
+      Color: 0; 255; 0
+      Enabled: true
+      Line Style: Arrows
+      Line Width: 0.15
+      Name: Navigation Path
       Topic: /planned_path
-    - Alpha: 1.0
-      Class: rviz/PointCloud2
-      Color Transformer: RGB8
+      Buffer Length: 100
+
+    - Class: rviz/PointCloud2
+      Color Transformer: Intensity
       Enabled: true
-      Name: PointCloud2
-      Size: 0.02
+      Name: Depth Sensor
+      Size (m): 0.03
+      Style: Flat Squares
       Topic: /camera/depth/points
-    - Alpha: 1.0
-      Class: rviz/PoseStamped
-      Color: 0; 0; 255
+      Use Fixed Frame: true
+
+    - Class: rviz/Marker
       Enabled: true
-      Name: Goal
-      Topic: /move_base_simple/goal
+      Name: Navigation Markers
+      Topic: /visualization_marker
+      Namespaces: {goal: true, path: true}
+
+    - Class: rviz/Axes
+      Enabled: true
+      Length: 0.5
+      Name: Rover Axes
+      Radius: 0.05
+      Reference Frame: base_link
+
   Enabled: true
   Global Options:
-    Background Color: 48; 48; 48
     Fixed Frame: base_link
-    Frame Rate: 30
-  Name: root
-  Tools: ~
-  Transformation:
-    Current:
-      Class: rviz_default_plugins/TF
-  Value: true
+    Target Frame: base_link
+
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz_default_plugins/PublishPoint
+
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 10
-      Enable Stereo Rendering:
-        Stereo Eye Separation: 0.05999999865889549
-        Stereo Focal Distance: 1
-        Swap Stereo Eyes: false
-        Value: false
-      Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
-      Focal Shape Fixed Size: true
-      Focal Shape Size: 0.05000000074505806
-      Invert Z Axis: false
-      Name: Current View
-      Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7853981852531433
-      Target Frame: <Fixed Frame>
-      Value: Orbit (rviz_default_plugins)
-      Yaw: 0.7853981852531433
-    Saved: ~
+      Distance: 5.0
+      Enable Stereo Rendering: false
+      Focal Point: {X: 0, Y: 0, Z: 0.5}
+      Name: Navigation View
+      Near Clip Distance: 0.1
+      Pitch: 30.0
+      Target Frame: base_link
+      Yaw: 45.0
+
 Window Geometry:
-  Height: 1451
-  Hide Left Dock: false
-  Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd000000000000090d0000050f00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
-  Width: 2317
-  X: 190
-  Y: 104
+  Height: 1080
+  Width: 1920
+  X: 100
+  Y: 100
