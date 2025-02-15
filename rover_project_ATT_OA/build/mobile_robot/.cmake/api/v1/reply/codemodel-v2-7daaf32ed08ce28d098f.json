@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-11f5622bcecf9b177606.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mobile_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "coordinate_input_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coordinate_input_node-ca424b85bffdde84c815.json",
+					"name" : "coordinate_input_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_subscriber-f39028fa187babc604fb.json",
+					"name" : "gps_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mobile_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mobile_robot_uninstall-bd512665184c20859818.json",
+					"name" : "mobile_robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_avoidance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_avoidance-50c151e43e7b394d7dcd.json",
+					"name" : "obstacle_avoidance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rover_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rover_control_node-73d921c450f9c63181d1.json",
+					"name" : "rover_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5c99d86cc771df4fee29.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dhruv/rover_project/build/mobile_robot",
+		"source" : "/home/dhruv/rover_project/src/mobile_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

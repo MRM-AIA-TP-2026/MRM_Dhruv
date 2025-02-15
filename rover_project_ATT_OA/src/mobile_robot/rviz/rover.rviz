@@ -1,0 +1,91 @@
+Panels:
+  []
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz/GlobalOptions
+      Fixed Frame: base_link
+      Name: Global Options
+    - Class: rviz/RobotModel
+      Enabled: true
+      Name: Robot Model
+    - Alpha: 1.0
+      Class: rviz/LaserScan
+      Color: 255; 25; 25
+      Enabled: true
+      Name: LaserScan
+      Size: 0.05
+      Topic: /scan
+    - Class: rviz/TF
+      Enabled: true
+      Name: TF
+    - Alpha: 1.0
+      Class: rviz/Odometry
+      Color: 255; 255; 0
+      Enabled: true
+      Keep: 100
+      Name: Odometry
+      Topic: /odom
+    - Alpha: 1.0
+      Class: rviz/Path
+      Color: 0; 255; 0
+      Enabled: true
+      Line Style: Lines
+      Line Width: 0.1
+      Name: Path
+      Topic: /planned_path
+    - Alpha: 1.0
+      Class: rviz/PointCloud2
+      Color Transformer: RGB8
+      Enabled: true
+      Name: PointCloud2
+      Size: 0.02
+      Topic: /camera/depth/points
+    - Alpha: 1.0
+      Class: rviz/PoseStamped
+      Color: 0; 0; 255
+      Enabled: true
+      Name: Goal
+      Topic: /move_base_simple/goal
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools: ~
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 10
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.7853981852531433
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz_default_plugins)
+      Yaw: 0.7853981852531433
+    Saved: ~
+Window Geometry:
+  Height: 1451
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd000000000000090d0000050f00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Width: 2317
+  X: 190
+  Y: 104
